@@ -1,0 +1,6 @@
+{
+	"m_title": "TP-Link KL130",
+	"m_descr": "Control TPLink KL130(B) Wi-Fi lights.",
+	"ip_label": "IP Address",
+	"ip_helper": "Add the light to your network using the TP Link app, then enter its IP address here."
+}

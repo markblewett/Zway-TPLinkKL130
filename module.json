@@ -1,0 +1,40 @@
+{
+	"author": "Mark Blewett",
+	"category": "wifiplug",
+	"defaults": {
+		"description": "__m_descr__",
+		"ip": "",
+		"title": "__m_title__"
+	},
+	"dependencies": [
+	],
+	"homepage": "https://github.com/markblewett/zway-TPLinkKL130",
+	"icon": "icon.png",
+	"maturity": "stable",
+	"moduleName": "TPLinkKL130",
+	"options": {
+		"fields": {
+			"ip": {
+				"label": "__ip_label__",
+				"helper": "__ip_helper__",
+				"required": true
+			}
+		}
+	},
+	"repository": {
+		"source": "https://github.com/markblewett/zway-TPLinkKL130",
+		"type": "git"
+	},
+	"schema": {
+		"type": "object",
+		"properties": {
+			"ip": {
+				"required": true
+			}
+		},
+		"required": false
+	},
+	"singleton": false,
+	"state": null,
+	"version": "1.0.0"
+}
