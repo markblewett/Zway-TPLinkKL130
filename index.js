@@ -106,7 +106,7 @@ TPLinkKL130.prototype.init = function (config) {
 			customIcons: {
 			},
 			metrics: {
-				icon: 'multilevel',
+				icon: 'switch',
 				title: self.getInstanceTitle(),
 				color: {
 					r: 0,
