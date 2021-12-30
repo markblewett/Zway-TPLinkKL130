@@ -106,16 +106,15 @@ TPLinkKL130.prototype.init = function (config) {
 			customIcons: {
 			},
 			metrics: {
-				icon: 'switch',
+				icon: 'multilevel',
 				title: self.getInstanceTitle(),
 				color: {
 					r: 0,
 					g: 0,
 					b: 0
 				},
-				level: 'off'
-			},
-			probeType: 'switchColor_rgb'
+				level: 0
+			}
 		},
 		handler: function(command, args) {	
 			switch(command) {
@@ -130,7 +129,7 @@ TPLinkKL130.prototype.init = function (config) {
 							}
 						}
 					});
-					self.vDev.set('metrics:level', 'on');
+					self.vDev.set('metrics:level', 99);
 					break
 				
 				case "off":
@@ -143,7 +142,7 @@ TPLinkKL130.prototype.init = function (config) {
 							}
 						}
 					});
-					self.vDev.set('metrics:level', 'off');
+					self.vDev.set('metrics:level', 0);
 					break;
 					
 				case "exact":
